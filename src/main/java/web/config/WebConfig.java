@@ -10,6 +10,17 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.thymeleaf.spring5.SpringTemplateEngine;
 import org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver;
 import org.thymeleaf.spring5.view.ThymeleafViewResolver;
+/*
+Задание:
+
+        Создайте еще один контроллер, замаппленный на /cars.
+        Создайте модель Car с тремя произвольными полями.
+        Создайте список из 5 машин.
+        Создайте сервис с методом, который будет возвращать указанное число машин из созданного списка.
+        Создайте страницу cars.html. Реализуйте создание таблицы с машинами из сервиса с помощью thymeleaf.
+        При запросе /cars выводить весь список. При запросе /cars?count=2 должен отобразиться список из 2 машин, при /cars?count=3 - из 3, и тд. При count ≥ 5 выводить весь список машин.
+*/
+
 
 @Configuration
 @EnableWebMvc
